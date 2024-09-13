@@ -63,13 +63,15 @@ h2 {
     cursor: pointer;
 }
 
-#gen-btn:hover {
+@media (hover: hover) {
+    #gen-btn:hover {
     background-color: #b37100;
+    }
 }
 
 #gen-btn img {
     vertical-align: middle;
-    width: 20px;
+    width: 12px;
 
 }
 
@@ -93,7 +95,7 @@ h2 {
 .boxes div {
     text-align: center;
     background-color: #70000D;
-    color: #A90316;
+    color: #FFC766;
     width: 8.5rem;
     height: 1.5rem;
     padding-top: 5px;
@@ -110,7 +112,10 @@ h2 {
     #gen-btn {
         width: 15rem;
         height: 3rem;
-        font-size: 15px;
+        font-size: 20px;
+    }
+    #gen-btn img {
+        width: 20px;
     }
     .line {
         width: 22rem;

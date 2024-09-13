@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="index-dark.css">
     <title>Password Generator</title>
 </head>
 <body>
+    <button class="dark-mode-button top-dark-mode-button" aria-label="dark mode toggle">
+        <span aria-hidden="true" class="dark-toggle">
+            <span class="DTspan"></span>
+        </span>
+    </button>
     <div class="body">
         <div class="heading">
             <h1>Generate a</h1>
@@ -23,10 +26,10 @@
             <img src="/Images/dots.png" width="13">
             <img src="/Images/dots.png" width="13">
             <img src="/Images/dots.png" width="13"> -->
-            <div class="first">---</div>
-            <div class="second">---</div>
-            <div class="third">---</div>
-            <div class="fourth">---</div>
+            <div id="first"><img src="dots.png"></div>
+            <div id="second"><img src="dots.png"></div>
+            <div id="third"><img src="dots.png"></div>
+            <div id="fourth"><img src="dots.png"></div>
         </div>
     </div>
     <script src="script.js"></script>

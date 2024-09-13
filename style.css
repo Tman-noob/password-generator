@@ -15,7 +15,84 @@ body {
 .body {
     max-width: 300px;
     min-height: auto;
+    .body {
     background-color: #FCEACC;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 10px;
+    letter-spacing: -1px;
+}
+
+.color {
+    color: #FFA203;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 250;
+    color: #6B7280;
+    font-size: 10px;
+}
+
+#gen-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 10rem;
+    height: 2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #6B7280;
+    font-size: 12px;
+    padding-bottom: 7px;
+    background-color: #FFA203;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#gen-btn img {
+    margin-top: 7px;
+    padding-right: 5px;
+}
+
+.line {
+    background-color: #9C9899;
+    width: 17rem;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.boxes div {
+    text-align: center;
+    background-color: #70000D;
+    color: #A90316;
+    width: 8rem;
+    height: 1.5rem;
+    padding-top: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
     position: absolute;
     top: 50%;
     left: 50%;
