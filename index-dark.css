@@ -43,6 +43,7 @@ Scroll to the bottom to start adding your dark mode styles
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .top-dark-mode-button {
@@ -87,7 +88,8 @@ body.dark-mode .top-dark-mode-button:after {
     font-weight: 250;
     font-size: 15px;
     color: #6B7280;
-    top: 12px;
+    top: 10px;
+    right: 22px;
 }
 
 .dark-toggle {
