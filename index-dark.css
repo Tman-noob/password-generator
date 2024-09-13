@@ -189,5 +189,6 @@ body.dark-mode .line {
 }
 
 body.dark-mode .boxes div {
-    color: #FFBB47
+    background-color: #70000D;
+    color: #ffc35d
 }
