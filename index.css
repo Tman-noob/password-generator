@@ -19,12 +19,12 @@ body {
     position: relative;
     width: 100%;
     max-width: 450px;
-    text-align: center;
+    /* text-align: center; */
     /* background-color: #FCEACC; */
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
 .heading {
@@ -78,6 +78,7 @@ h2 {
 
 #gen-btn img {
     vertical-align: middle;
+    width: 20px;
 
 }
 
@@ -115,4 +116,28 @@ h2 {
     height: 1.5rem;
     padding-top: 5px;
     border-radius: 5px;
+}
+
+@media (min-width: 400px) {
+    h1 {
+        font-size: 35px;  
+    }
+    h2,
+    #gen-btn {
+        font-size: 20px;
+    }
+    #gen-btn {
+        width: 15rem;
+        height: 3rem;
+    }
+    .line {
+        width: 22rem;
+    }
+    .boxes {
+        width: 700px;
+    }
+    .boxes div {
+        width: 11rem;
+        height: 1.7rem;
+    }
 }
